@@ -1,0 +1,28 @@
+ALGORITHM three_nb_add //nom de l'algorithme
+VAR //declaration des variables
+    chaine : STRING; 
+    compteurMot: INTEGER;
+    compteurvoyelle: INTEGER;
+    compteurcaractere: INTEGER;
+BEGIN // debut de l'algorithme
+
+    Write("chaine de caractere") 
+    Read(chaine)
+    compteurMot:= 0
+    compteurvoyelle:= 0
+    FOR i FROM 0 TO mot.length-1 DO
+        IF mot.chartAt(i) == ' ' THEN
+        compteurMot:= compteurMot+1
+        END_IF
+        IF mot.mot.chartAt(i) <> '.' THEN
+        compteurcaractere:=compteurcaractere+1
+        END_IF
+        IF mot.chartAt(i) == 'a' || mot.chartAt(i) == 'o'|| mot.chartAt(i) == 'u'|| mot.chartAt(i) == 'i'|| mot.chartAt(i) == 'e' || mot.chartAt(i) == 'y'
+        compteurvoyelle:= compteurvoyelle+1
+        END_IF
+    END FOR
+
+    write("le nombre de mot", compteurMot)
+    write("le nombre de voyelle",compteurvoyelle)
+    write("le nombre de caractere";compteurcaractere)
+END // fin de l'algorithme
